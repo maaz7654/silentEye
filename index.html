@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\Personal\Documents\bootstrap-5.3.3-dist\css\bootstrap.min.css">
+    <style>
+        .content {
+            margin-top: 64px;
+        }
+
+        .container-rounded {
+            border-radius: 0.5rem; /* Rounded corners */
+            padding: 1rem; /* Padding inside the container */
+            border: 1px solid #ddd; /* Border color */
+            background-color: #f8f9fa; /* Background color */
+        }
+        .container-rounded img {
+            max-width: 100%; /* Ensure image scales responsively */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .bg-E9EBFF {
+            background-color: #E9EBFF; /* Custom background color */
+        }
+        .container img {
+            max-width: 50px; /* Adjust size as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .container-custom {
+            padding-right: 1rem; /* Decrease width from the right */
+            margin-right: -1rem; /* Adjust if necessary */
+        }
+
+        .faded-text {
+            color: #6c757d; /* Bootstrap's muted color */
+        }
+        .star {
+            color: green; 
+                                /* Color for the star */
+        }
+        .bold-text {
+            font-weight: bold; /* Bold text */
+        }
+        .custom-width
+        {
+            width: 65%;
+        }
+
+
+
+        /* Container to position the content and overlay */
+.position-relative {
+    position: relative;
+}
+
+/* Wrapper for the fading content */
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4rem; /* Space for the button */
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Full -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex w-100 align-items-center justify-content-between">
+                    <!-- First Column: Left aligned -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+    
+                    <!-- Third Column: Right aligned -->
+                    <div class="d-flex gap-2">
+                        <a class="btn btn-secondary" href="#">Login</a>
+                        <a class="btn btn-primary" href="#">Try Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- container 1 -->
+
+    <section style="padding: 60px 0;">
+        <div class="container-lg">
+            <div class="row justify-content-start">
+                <div class="col-md-5 text-start text-md-start">
+                    <h1>
+                        <div class="display-4"> 
+                            Get Any Phone's <br>
+                            Entire Access Instantly <br>
+                            With Just Number
+                        </div>
+                        <div class="d-flex align-item-center mt-2">
+                            <img src="./images/image 69.png" alt="america" class="me-3" style="height:50%;">
+                            <p class="h5 text-muted">
+                                No.1 Choice in USA
+                            </p>
+                        </div>
+                       <div>
+                        <p class="h6 text-muted mt-3">
+                            Type in the phone number you want to access.
+                        </p>
+                       </div>
+                       <div class="container border rounded-pill mx-0 custom-width">
+                        <div class="d-flex align-items-center">
+                            <img src="./images/Frame 1171275420.png" alt="alternate" class="me-3">
+                            <form class="d-flex flex-grow-1">
+                                <input type="tel" id="phone" class="form-control rounded-start" placeholder="Phone number">
+                                <button type="submit" class="btn btn-primary btn-sm rounded-end justify-content-end">Access</button>
+                            </form>
+                        </div>
+                       </div>
+                        <div class="container custom-width bg-E9EBFF text-dark border-primary d-flex align-items-center mx-0 mt-3">
+                            <img src="./images/Frame.png" alt="alt" class="me-3" style="width: 8%; height: auto;">
+                            <p class="h6 mb-0 flex-grow-1 text-nowrap" style="font-size: calc(0.8rem + 0.1vw);">00000 People Gained Device Access Today!</p>
+                        </div>
+
+                        <div class="container text-muted custom-width mt-3 mx-0">
+                             <p class="h6 mb-0 flex-grow-1 text-nowrap mx-0 p-0" style="font-size: calc(0.8rem + 0.1vw);">
+                            Rated <span class="bold-text">Excellent</span> on <span class="star">&#9733;</span> <span class="bold-text">Trustpilot</span> Based on<span class="bold-text"> 456 Reviews</span>
+                        </p>
+                        </div>
+
+                        <div class="container text-muted mt-3 mx-0">
+                            <p class="h6 faded-text" style="font-size: small;">
+                                 SilentEye is a robust spyware providing unrestricted access to any device worldwide through 
+                            a phone number—no app installs or physical contact needed.
+                            </p>
+                        </div>
+                    </h1>
+                </div>
+                <div class="col-md-5 d-flex justify-content-end ms-5">
+                    <img class="img-fluid" src="./images/hero-image.png" alt="hero-image">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+<!-- Most used features container -->
+    <div class="container my-6 d-flex justify-content-center">
+        <p class="h3 fw-bold text-center">Most Used Features</p>
+    </div>
+
+
+    <!-- Container 2 card groups  -->
+
+     <section class="bg-E9EBFF mt-3">
+        <div class="container-lg py-1">
+            <div class="row my-5 align-text-center justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3 d-flex mb-4">
+                    <div class="card rounded-4">
+                        <div class="card-body text-start">
+                            <img src="./images/Frame (1).png" alt="icon1">
+                            <h4 class="card-title mt-3">
+                                View App Messages, Stories, or Content Anonymously
+                            </h4>
+                            <p class="card-subtitle text-muted mt-auto">
+                                Monitor app content without detection
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex mb-4">
+                    <div class="card rounded-4">
+                        <div class="card-body text-start">
+                            <img src="./images/Frame (2).png" alt="icon2">
+                            <h4 class="card-title mt-3">
+                                Real-Time Notification Sync
+                            </h4>
+                            <p class="card-subtitle text-muted mt-auto">
+                                Monitor app content without detection
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex mb-4">
+                    <div class="card rounded-4">
+                        <div class="card-body text-start">
+                            <img src="./images/Frame (3).png" alt="icon3">
+                            <h4 class="card-title mt-3">
+                                Instant Alerts
+                            </h4>
+                            <p class="card-subtitle text-muted mt-auto">
+                                Low Battery, Offline status, App Access, and Geofence Updates: Receive immediate notifications
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex mb-4">
+                    <div class="card rounded-4">
+                        <div class="card-body text-start">
+                            <img src="./images/Frame (4).png" alt="icon4">
+                            <h4 class="card-title mt-3">
+                                Comprehensive Activity Tracking with Date, Time, and Screen Recordings
+                            </h4>
+                            <p class="card-subtitle text-muted mt-auto">
+                                Monitor device usage comprehensively
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+     </section>
+
+  
+      
+
+
+
+<!-- Container 3 Even More Features -->
+<div class="container my-8 d-flex justify-content-center mt-5">
+    <p class="h3 fw-bold text-center">Even more Great Features</p>
+</div>
+
+
+
+<!-- Container 4 Device Control -->
+
+<div class="container-fluid mt-3 border">
+    <div class="row mt-3 mx-lg-5 px-lg-3">
+        <div class="col-12 col-lg-6">
+            <h2 class="fw-bold mx-3 mx-lg-5">
+                Device Control and Locking
+            </h2>
+            <p class="text-muted faded-text mx-3 mx-lg-5 mt-3">
+                Device Lock Controller enables device management for credit providers. Your provider can remotely restrict 
+                access to your device if you don't make payments. If your device is restricted, basic functionality, such as 
+                emergency calling and access to settings, will still be available.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+                <img src="./images/4.png" alt="test1" class="mt-3 mx-2 mx-lg-5 img-fluid">
+                <img src="./images/5.png" alt="test2" class="mt-3 mx-2 mx-lg-5 img-fluid">
+                <img src="./images/1.png" alt="test3" class="mt-3 mx-2 mx-lg-5 mb-5 img-fluid">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+            <img src="./images/Device Control and Locking.png" alt="device control" class="img-fluid mb-5">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Container 5 Real time monitoring -->
+ 
+
+<div class="container-fluid mt-0 border">
+    <div class="row mt-3 mx-lg-5 px-lg-3">
+        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+            <img src="./images/Device Control and Locking (1).png" alt="real-time tracking" class="img-fluid mt-3">
+        </div>
+        <div class="col-12 col-lg-6">
+            <h2 class="fw-bold mx-3 mx-lg-5 mt-3">
+                Real-Time Monitoring
+            </h2>
+            <p class="text-muted faded-text mx-3 mx-lg-5 mt-3">
+               Real-Time monitoring is the delivery of continuously updated data about systems, processes, or events.
+               Such monitoring provides information at zero or low latency, so there is minimal delay between data collection
+               and analysis.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+                <img src="./images/r1.png" alt="test1" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/r2.png" alt="test2" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/r3.png" alt="test3" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/r4.png" alt="test3" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/r5.png" alt="test3" class="img-fluid mt-3 mx-2 mx-lg-5 mb-4">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Container 6 Communication Control -->
+
+<div class="container-fluid mt-0 border">
+    <div class="row mt-3 mx-lg-5 px-lg-3">
+        <div class="col-12 col-lg-6">
+            <h2 class="fw-bold mx-3 mx-lg-5">
+                Communication Control
+            </h2>
+            <p class="text-muted faded-text mx-3 mx-lg-5 mt-4">
+                A communication controller manages data input and output to a host computer or computer network.
+                The units may be complex front-end mainframe interface or simpler devices such as multiplexers, bridges,
+                and routers.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+                <img src="./images/c1.png" alt="test1" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/c2.png" alt="test2" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/c3.png" alt="test3" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/c4.png" alt="test4" class="img-fluid mt-3 mx-2 mx-lg-5 mb-5">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+            <img src="./images/communication control.png" alt="communication control" class="img-fluid mt-4 mb-5">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- container 7 app and file mangement -->
+<div class="container-fluid mt-0 border">
+    <div class="row mt-3 mx-lg-5 px-lg-3">
+        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+            <img src="./images/App manag.png" alt="App and file management" class="img-fluid mt-3">
+        </div>
+        <div class="col-12 col-lg-6">
+            <h2 class="fw-bold mx-3 mx-lg-5 mt-3">
+                App and File Management
+            </h2>
+            <p class="text-muted faded-text mx-3 mx-lg-5 mt-3">
+                Real-time monitoring is the delivery of continuously updated data about systems, processes, or events.
+                Such monitoring provides information streaming of zero or low latency.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+                <img src="./images/a1.png" alt="test1" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/a2.png" alt="test2" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/a3.png" alt="test3" class="img-fluid mt-3 mx-2 mx-lg-5">
+                <img src="./images/a4.png" alt="test4" class="img-fluid mt-3 mx-2 mx-lg-5 mb-4">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- container 8 faded section not done -->
+
+<div class="container-fluid mt-0 border d-flex justify-content-center align-items-center" style="height: 100px;">
+    <button class="btn btn-outline-primary btn-lg rounded-pill mb-3 px-4 px-md-5">
+        View More Features
+    </button>
+</div>
+
+
+
+<!-- container 9 communication monitoring -->
+<div class="container-fluid mt-0 text-center">
+    <h4 class="mt-3 fw-bold">
+        Communication Monitoring for Various Apps
+    </h4>
+    <p class="text-muted mt-2">
+        Monitor 20+ popular apps and social media platforms
+    </p>
+    <img src="./images/Title.png" alt="Communication Monitoring" class="img-fluid mb-3 mx-auto" style="max-width: 100%;">
+</div>
+
+
+
+
+
+<!-- Container 9 about our platform -->
+
+
+<section class="bg-E9EBFF">
+    <div class="container text-center">
+        <h4 class="fw-bold mt-4">
+            About Our Platform
+        </h4>
+    </div>
+    <img src="./images/about.png" alt="About Our Platform" class="img-fluid mt-3 mb-3 mx-auto" style="max-width: 100%;">
+</section>
+
+
+
+<!-- container 10  Awards and Recognition-->
+
+<section>
+    <div class="container text-center">
+        <h4 class="fw-bold mt-4">
+            Awards & Recognition
+        </h4>
+        <p class="text-muted mt-2">
+            SilentEye has been recognized as one of the best MDM solutions out in the market today
+        </p>    
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <img src="./images/awards.png" alt="Awards" class="img-fluid" style="max-width: 100%;">
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img src="./images/company.png" alt="Company" class="img-fluid" style="max-width: 100%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- container 11 with or without -->
+ 
+<section>
+    <div class="container text-center">
+        <button class="btn rounded btn-sm btn-outline-primary mb-2 mb-md-0">
+            Without Us
+        </button>
+        <button class="btn rounded btn-dark ms-2 ms-md-3">
+            With Us
+        </button>
+    </div>
+</section>
+
+
+
+ <!-- container 12 7 card groups -->
+
+ <div class="card-group ms-4 mt-3">
+    <div class="card border-0">
+        <div class="card-body p-0">
+            <img src="./images/w2.png" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+    <div class="card border-0">
+        <div class="card-body p-0">
+            <img src="./images/w3.png" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+    <div class="card border-0">
+        <div class="card-body p-0">
+            <img src="./images/w4.png" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+    <div class="card border-0">
+        <div class="card-body p-0">
+            <img src="./images/w5.png" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+    <div class="card border-0">
+        <div class="card-body p-0">
+            <img src="./images/w6.png" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+    <div class="card border-0">
+        <div class="card-body p-0">
+            <img src="./images/w7.png" alt="" class="img-fluid rounded">
+        </div>
+    </div>
+    <div class="col d-none d-lg-block d-flex justify-content-center">
+        <div class="card border-0">
+            <div class="card-body p-0">
+                <img src="./images/w1.png" alt="Image 1" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
